@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:softvances.com.br)"
+      "WebFetch(domain:softvances.com.br)",
+      "Bash(git config *)"
     ]
   }
 }
