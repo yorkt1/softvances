@@ -1,31 +1,16 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { NeuralHero } from "@/components/NeuralHero";
-import { Sections } from "@/components/Sections";
+import { SoftVancesLanding } from "@/components/softvances/Landing";
+
 export const Route = createFileRoute("/")({
+  component: SoftVancesLanding,
   head: () => ({
     meta: [
-      { title: "SoftVances — Tecnologia que pensa por você" },
+      { title: "SoftVances — Sites, automações e soluções digitais" },
       {
         name: "description",
         content:
-          "SoftVances cria sites premium, sistemas, automações e inteligência artificial com design cinematográfico e experiências interativas.",
-      },
-      { property: "og:title", content: "SoftVances — Tecnologia que pensa por você" },
-      {
-        property: "og:description",
-        content:
-          "Sites, sistemas, automações e IA com design futurista. Uma experiência neural interativa.",
+          "SoftVances cria sites profissionais, automações inteligentes e soluções digitais para acelerar empresas.",
       },
     ],
   }),
-  component: Index,
 });
-
-function Index() {
-  return (
-    <main className="relative">
-      <NeuralHero />
-      <Sections />
-    </main>
-  );
-}
