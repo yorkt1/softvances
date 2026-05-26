@@ -124,7 +124,7 @@ function Nav() {
     <header className="sticky top-0 z-50 backdrop-blur-md bg-background/70 border-b border-foreground/5">
       <div className="mx-auto max-w-7xl px-6 lg:px-10 h-16 flex items-center justify-between">
         <a href="#top" className="flex items-center group">
-          <span className="font-black text-xl tracking-tighter">&lt;S/&gt;</span>
+          <img src="https://res.cloudinary.com/dqewxdbfx/image/upload/v1779824559/equipe_3_fsteyc.png" alt="SoftVances" className="h-12 w-auto" />
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm text-foreground/70">
           <a href="#servicos" className="hover:text-foreground transition-colors">Serviços</a>
@@ -173,11 +173,11 @@ function Hero() {
         </div>
 
         {/* Geometric detail */}
-        <div className="lg:col-span-5 relative">
+        <div className="hidden lg:block lg:col-span-5 relative">
           <Reveal delay={300}>
             <div className="relative aspect-square max-w-md mx-auto">
               {/* grid */}
-              <svg className="absolute inset-0 w-full h-full text-foreground/10" aria-hidden>
+              <svg className="absolute inset-0 w-full h-full text-foreground/10 hidden lg:block" aria-hidden>
                 <defs>
                   <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
                     <path d="M 32 0 L 0 0 0 32" fill="none" stroke="currentColor" strokeWidth="0.5" />
@@ -478,7 +478,7 @@ function Footer() {
       <div className="mx-auto max-w-7xl px-6 lg:px-10 py-14 grid md:grid-cols-3 gap-10">
         <div>
           <div className="flex items-center">
-            <img src="/logo.svg" alt="SoftVances" className="h-8 w-auto invert" />
+            <img src="https://res.cloudinary.com/dqewxdbfx/image/upload/v1779824559/equipe_3_fsteyc.png" alt="SoftVances" className="h-12 w-auto" />
           </div>
           <p className="mt-4 text-sm max-w-xs">
             Estúdio digital criando sites, automações e soluções tecnológicas sob medida.
