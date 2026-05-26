@@ -2,7 +2,6 @@
   "buildCommand": "vite build",
   "outputDirectory": ".output/public",
   "framework": "other",
-  "nodeVersion": "20.x",
   "devCommand": "vite dev --host",
   "functions": {
     "api/**": {
