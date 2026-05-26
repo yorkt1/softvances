@@ -1,18 +1,4 @@
 {
   "buildCommand": "vite build",
-  "outputDirectory": ".output/public",
-  "framework": "tanstack-start",
-  "devCommand": "vite dev --host",
-  "functions": {
-    "api/**": {
-      "runtime": "nodejs20.x"
-    }
-  },
-  "routes": [
-    {
-      "src": "^/.*",
-      "dest": ".output/server/index.mjs",
-      "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS", "HEAD"]
-    }
-  ]
+  "outputDirectory": "dist"
 }
