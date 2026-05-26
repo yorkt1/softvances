@@ -1,7 +1,7 @@
 {
   "buildCommand": "vite build",
   "outputDirectory": ".output/public",
-  "framework": "other",
+  "framework": "tanstack-start",
   "devCommand": "vite dev --host",
   "functions": {
     "api/**": {
